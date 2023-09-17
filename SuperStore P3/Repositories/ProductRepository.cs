@@ -9,7 +9,7 @@ namespace EcoPower_Logistics.Repositories
 
         public ProductRepository(SuperStoreContext superStoreContext) : base(superStoreContext)
         {
-        }
+        } 
         public void AddProduct(Product entity)
         {
             Add(entity);
